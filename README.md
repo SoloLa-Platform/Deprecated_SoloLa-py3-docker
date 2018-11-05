@@ -21,7 +21,7 @@ Other dependency check out [SoloLa Requirements](https://github.com/SoloLa-Platf
 ## Usage for Developer
 
 <pre> 
-docker run -ti --rm -v `pwd`:/soloLa ykhorizon/solola-py35 bash bash 
+docker run -ti --rm -v `pwd`:/soloLa ykhorizon/solola-py35 bash 
 git clone https://github.com/SoloLa-Platform/SoloLa.git
 cd SoloLa
 git checkout dev_version
