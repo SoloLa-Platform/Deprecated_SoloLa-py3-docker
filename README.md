@@ -1,4 +1,4 @@
-# SoloLa python3.5 Docker Image
+# SoloLa python 3.5 Docker Image
 
 > <span class="highlight">Caution! This version of soloLa is unstable</span>
 
@@ -9,7 +9,7 @@ We provide an docker image for SoloLa python3.5 . Check out the image on Docker 
 (This dockerfile and image are prepared for soloLa-core and solaLa platfrom development)
 
 
-## System Version
+## Dependency
 
 We use essentia docker image as base images:
 
@@ -18,13 +18,13 @@ We use essentia docker image as base images:
 Other dependency check out [SoloLa Requirements](https://github.com/SoloLa-Platform/SoloLa/tree/dev_version)
 
 
-## Usage for Developer
+## Usage 
 
 <pre> 
 docker run -ti --rm -v `pwd`:/soloLa ykhorizon/solola-py35 bash 
 git clone https://github.com/SoloLa-Platform/SoloLa.git
 cd SoloLa
 git checkout dev_version
-sh test.sh
+python3 main.py [absolute/path/to/audio.mp3]
 </pre>
 
